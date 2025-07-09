@@ -48,3 +48,32 @@ header div button {
   font-size: 20px;
   color: white;
 }
+
+.pillar {
+  max-width: 1280px;
+  margin: 30px auto;
+}
+
+.parent-div {
+  border: 2px solid red;
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
+}
+.child-div {
+  border: 2px solid gray;
+  height: 244px;
+  width: 302px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.child-div img {
+  width: 62px;
+  height: 62px;
+  margin: 10px 0;
+}
+.child-div h2 {
+  margin: 10px 0;
+}
